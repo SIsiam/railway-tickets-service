@@ -1,0 +1,101 @@
+.hero-box {
+    margin-top: 3.5rem;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.hero-box h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+    letter-spacing: 2px;
+}
+
+.hero-box p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+}
+
+.active-slide-0 #card-0 .card-body {
+    border: 3px solid #F9A51A;
+    border-radius: 1.22rem;
+    box-shadow: 4px 7px 8px 1px rgb(0 0 0 / 20%);
+    transition: all 0.2s ease;
+}
+
+.active-slide-1 #card-1 .card-body {
+    border: 3px solid #F9A51A;
+    border-radius: 1.22rem;
+    box-shadow: 4px 7px 8px 1px rgb(0 0 0 / 20%);
+    transition: all 0.2s ease;
+}
+
+.active-slide-2 #card-2 .card-body {
+    border: 3px solid #F9A51A;
+    border-radius: 1.22rem;
+    box-shadow: 4px 7px 8px 1px rgb(0 0 0 / 20%);
+    transition: all 0.2s ease;
+}
+
+.btn-btn {
+    background: #F9A51A;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.card-body {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-body p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+}
+
+.card-box a {
+    color: #fff;
+}
+
+.col-lg-4 {
+    padding-left: 15px !important;
+    padding-right: 0 !important;
+}
+
+.card-title {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.card {
+    border-radius: 1.2rem;
+}
+
+.angle {
+    text-align: center;
+}
+
+.prev, .next {
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin: 4rem 0.8rem;
+}
+
+.next .right {
+    font-size: 1.5rem;
+}
+
+.prev .left {
+    font-size: 1.5rem;
+}
+
+.prev:focus {
+    outline: none;
+}
+
+.next:focus {
+    outline: none;
+}

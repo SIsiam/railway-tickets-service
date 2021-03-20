@@ -1,0 +1,10 @@
+/* header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../Image/cox.png') center/cover;
+    height: 100vh;
+    position: relative;
+} */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../Image/main.jpg') center/cover;
+    height: 100vh;
+    position: relative;
+}

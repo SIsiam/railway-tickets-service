@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+.login {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.form-control {
+    border-bottom: 1px solid #C5C5C5 !important;
+    border-color: transparent;
+}
+
+.form-group :placeholder-shown {
+    background: #fff !important;
+}
+
+.form-group label {
+    color: #000 !important;
+}
+
+.form-check {
+    padding-left: 2rem;
+}
+
+.form-box h1 {
+    padding-left: 0.9rem;
+    padding-top: 1rem;
+}
+
+.form-box {
+    border: 1px solid #C5C5C5;
+    border-radius: 8px;
+}
+
+.col-lg-4 .form-control {
+    border: 1px solid #c5c5c5;
+}
+
+.btn-social {
+    width: 50%;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid #C5C5C5;
+    position: relative;
+}
+
+.social-logo {
+    height: 37px;
+    width: 37px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+}
