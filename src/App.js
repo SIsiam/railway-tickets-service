@@ -1,13 +1,11 @@
 import React, { createContext, useState } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import PrivateRoute from './components/privateRoute/PrivateRoute';
-import Booking from './pages/Booking';
-// import Password from './pages/forgotPassword/Password';
-import Home from './pages/Home';
-import Hotels from './pages/Hotels';
-// import NotFound from './pages/NotFound';
-import Login from './pages/sign-in/Login';
-import SignUp from './pages/sign-up/SignUp';
+import Booking from './components/Booking/Booking';
+import Home from './components/Home/Home';
+import TicketConfirm from './components/TicketConfirm/TicketConfirm';
+import Login from './components/sign-in/Login';
+import SignUp from './components/sign-up/SignUp';
 
 export const UserContext = createContext();
 
@@ -19,26 +17,29 @@ const App = () => {
 			<Router>
 				<Switch>
 					<Route exact={true} path="/">
-						<Home />
+						<Home></Home>
 					</Route>
+
 					<Route exact path="/login">
-						<Login />
+						<Login></Login>
 					</Route>
+
 					<Route exact path="/signup">
-						<SignUp />
+						<SignUp></SignUp>
 					</Route>
-					{/* <Route path="/forgotPassword">
-						<Password />
-					</Route> */}
-					<Route exact path="/:slug">
-						<Booking />
+
+					<Route exact path="/:url">
+						<Booking></Booking>
 					</Route>
-					<PrivateRoute path="/hotels/:slug">
-						<Hotels />
+
+					{/* <PrivateRoute path="/hotels/:slug">
+						<TicketConfirm></TicketConfirm>
+					</PrivateRoute> */}
+
+					<PrivateRoute path="/tickets/:url">
+						<TicketConfirm></TicketConfirm>
 					</PrivateRoute>
-					{/* <Route path="*">
-						<NotFound />
-					</Route> */}
+
 				</Switch>
 			</Router>
 		</UserContext.Provider>

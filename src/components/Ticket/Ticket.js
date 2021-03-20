@@ -1,6 +1,6 @@
 import './Ticket.css';
 import Card from './Card';
-import data from '../../fakeData/FakeData';
+import data from '../../FakeData/FakeData';
 import { useEffect, useState } from 'react';
 
 

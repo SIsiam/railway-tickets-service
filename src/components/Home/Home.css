@@ -1,0 +1,5 @@
+.Home-section {
+    background: url('../../Image/main.jpg') center/cover; 
+    height: 230vh;
+    position: relative;
+}

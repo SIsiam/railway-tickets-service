@@ -1,0 +1,35 @@
+.confirm-travel {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../Image/Train-Station.jpg') center/cover;
+    height: 250vh;
+    font-weight: 700;
+    position: relative;
+}
+
+.distination {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 8px;
+}
+.Place-distanation {
+    background-color: tomato;
+    padding: 20px;
+    border-radius: 10px;
+}
+.distination-place {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: rgb(71, 181, 255);
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+.distination-place img {
+    width: 70px;
+    border-radius: 10px;
+}

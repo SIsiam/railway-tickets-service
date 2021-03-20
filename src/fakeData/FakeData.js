@@ -2,7 +2,7 @@ var fakeData = [
 	{
 		id: 1,
 		TicketName: "One Time Tickets",
-		slug: 'ONETIME',
+		url: 'ONETIME',
 		price: 100,
 		type1: 'Ticket1',
 		type2: 'Ticket2',
@@ -21,7 +21,7 @@ var fakeData = [
 	{
 		id: 2,
 		TicketName: 'One Day Pass',
-		slug: 'ONEDAY',
+		url: 'ONEDAY',
 		price: 500,
 		hotels: [
 			{
@@ -37,7 +37,7 @@ var fakeData = [
 	{
 		id: 3,
 		TicketName: 'MONTHLY PASS',
-		slug: 'MONTHLY',
+		url: 'MONTHLY',
 		price: 1500,
 		hotels: [
 			{
@@ -53,7 +53,7 @@ var fakeData = [
 	{
 		id: 4,
 		TicketName: 'ANNUL PASS',
-		slug: 'ANNUL',
+		url: 'ANNUL',
 		price: 9000,
 		hotels: [
 			{

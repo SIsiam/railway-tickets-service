@@ -1,0 +1,28 @@
+.logo {
+    width: 100px;
+    border-radius: 15px;
+}
+
+.navbar li {
+    list-style-type:none
+}
+
+.navbar li a {
+    font-size: 1rem;
+    color: rgb(179, 24, 240);
+    text-decoration: none;
+    font-weight: 800;
+    padding: 5px;
+    border-radius: 7px;
+}
+.navbar li a:hover {
+    color: rgb(24, 240, 157);
+    text-decoration: underline;
+}
+
+.navbar li:last-child {
+    background-color: #1af9f9;
+    color: black;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+}

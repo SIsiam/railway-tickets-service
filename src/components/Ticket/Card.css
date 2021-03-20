@@ -14,12 +14,12 @@
     text-decoration: none;
 }
 .my-card-body button {
-    background-color: rgb(245, 3, 104);
-    color: white;
+    color: rgb(114, 48, 236);
     margin: 10px;
     margin-left: -15px;
     padding: 8px;
     border-radius: 20px;
+    font-weight: 800;
 }
 
 .ticket-price {
