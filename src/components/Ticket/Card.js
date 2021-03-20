@@ -4,7 +4,6 @@ import './Card.css'
 
 const Card = (props) => {
 	const { TicketName, id, url, price } = props.properties;
-	console.log(props.properties);
 	return (
 		<div id={`card-${id}`} className="card-box col-lg-3">
 

@@ -32,10 +32,6 @@ const App = () => {
 						<Booking></Booking>
 					</Route>
 
-					{/* <PrivateRoute path="/hotels/:slug">
-						<TicketConfirm></TicketConfirm>
-					</PrivateRoute> */}
-
 					<PrivateRoute path="/tickets/:url">
 						<TicketConfirm></TicketConfirm>
 					</PrivateRoute>
