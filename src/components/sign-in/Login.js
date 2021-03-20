@@ -164,10 +164,10 @@ const Login = () => {
 					<div className="col-md-8 text-center">
 						<p className="errText mt-3" id="error" />
 			
-						<div className="mt-3">
+						<div className="mt-3 google-btn">
 							<button className="btn btn-social" onClick={googleSign}>
 								<img className="social-logo" src={google} alt="google" />
-							Continue with Google
+							Log In
 						</button>
 						</div>
 						<br/>

@@ -120,7 +120,7 @@ const SignUp = () => {
 						</div> */}
 						<div className="mt-3">
 							<button className="btn btn-social" disabled>
-								<img className="social-logo" src={google} alt="google" /> Login with Google
+								<img className="social-logo" src={google} alt="google" /> Login
 						</button>
 						</div>
 					</div>
